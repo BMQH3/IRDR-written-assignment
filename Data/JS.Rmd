@@ -53,7 +53,7 @@ tm_shape(jsarea) +
   tm_polygons(col = "pink", alpha = 0.5 )
 ```
 
-Pumps and deaths shaoefile
+Pumps and deaths shapefile
 
 ```{r}
 chdeaths <- st_read("SnowGIS/Cholera_Deaths.shp")
