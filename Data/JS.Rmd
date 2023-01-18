@@ -42,6 +42,8 @@ outline <- st_read("statistical-gis-boundaries-london/ESRI/OA_2011_London_gen_MH
 jsarea <- st_read("Area/John_Snow_Study_Area.shp", crs = 4326)
 
 ```
+
+
 ```{r}
 newbox <- st_bbox(outline %>% filter(LSOA11CD %in% c("E01033595", 'E01033596', 'E01004734', "E01004763", "E01004765")))
 ```
